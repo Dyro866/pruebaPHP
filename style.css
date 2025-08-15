@@ -1,0 +1,28 @@
+*{
+
+margin: 0px;
+padding: 0px;
+
+
+}
+
+body{
+    
+    background-color: #7a6464;
+   
+}
+
+#container{
+    width:  80%;
+    margin: 0px auto;
+    border: 1px solid #000000;
+}
+
+#header{        
+    height: 80px;
+    background-color: #8f2323;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+
+}
