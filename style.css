@@ -15,19 +15,36 @@ body{
 #container{
     width:  80%;
     margin: 0px auto;
-    border: 1px solid #000000;
+    border: 1px solid #ffffff;
+    background: #857272;
+
 }
 
 #header{        
-    height: 80px;
+    height: 130px;
     background-color: #692525;
     color: white;
     text-align: center;
-    line-height: 100px;
+    line-height: 30px;
+
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    
 
 }
 
 #menu{
+    clear: both;
     background-color: #131d79;
     color: aliceblue;
     height: 50px;
@@ -37,12 +54,12 @@ body{
 #menu ul{
     list-style: none;
     text-decoration: none;
-    margin: 0px auto;
+    margin: 0px;
     margin-left: 25px;
 }
 
 #menu ul li{
-    line-height; 55px;
+    line-height: 55px;
     float: left;
     border-right: 1px solid #000;
 
@@ -50,14 +67,31 @@ body{
 }
 
 #menu a{
-    display: block;
-    color: aliceblue;
+    display:block ;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding-left: 12px;
     padding-right: 12px;
 }
 
 #menu a:hover{
-    background-color: #c73e3e;
-    color: white;
+    background-color: #833b3b;
+    
+}
+#content{
+    margin: 0px;
+    background: rgb(80, 73, 73);
+}
+
+/* barra lateral */
+#lateral{
+    width: 20%;
+    border: 1px solid #000;
+
+}
+#central{
+    width: 80%;
+    border: 1px solid #000;
+    
+
 }
