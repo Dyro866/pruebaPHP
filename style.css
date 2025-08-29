@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -69,18 +70,17 @@ body {
     display: flex;
     gap: 10px; /* espacio entre lateral y central */
     padding: 20px;
-    box-sizing: border-box;
 }
 
-/* barra lateral */
 #lateral {
     width: 25%;
-    min-height: 650px;
+    min-height: 600px;
     border: 1px solid #000;
     padding: 20px;
-    box-sizing: border-box;
     background-color: #a39b9b;
-}#lateral .block_aside {
+}
+
+#lateral .block_aside {
     display: block;
     width: 90%;
     margin: 5px;
@@ -121,64 +121,22 @@ input[type="password"]:focus,
 input[type="email"]:focus {
     border: #833b3b 1px solid;
     color: #443333;
-
-    
 }
 
 input[type="submit"],
-input[type="button"] {
+input[type="button"],
+.button {
     display: block;
     border-radius: 2px;
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: #d6d1d1;
+    padding: 5px 10px;
+    background: #cc2222;
     color: #000;
     border: #000 1px solid;
     cursor: pointer;
-    
-    
-}
-
-
-#central {
-    width: 75%;
-    min-height: 650px;
-    float: right;
-    /* border: 1px solid #000; */
-    border-left: 1px solid rgb(253, 250, 243);
-    box-shadow: inset 1px 1px 5px #000;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #d6d1d1;
-}
-#central h1{
-    font-size: 24px;
-    font-weight: normal;
-    letter-spacing: 1px;
     text-align: center;
-    border-bottom: #000 1px solid;
-    margin-bottom: 20px;
-    padding: 20px;
-    padding-top: 0px;
-
+    text-decoration: none;
+    margin: 0 auto;
 }
-
-.product {
-    width: 33%;
-    float: right;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    text-align: center;
- 
-}
-
-.product img {
-    height: 150px;
-    margin-bottom: 10px;
-}
-   
 
 #login form {
     display: flex;
@@ -196,5 +154,58 @@ input[type="button"] {
     padding: 5px;
     margin-top: 5px;
     font-size: 15px;
+}
+
+#central {
+    width: 75%;
+    min-height: 600px;
+    border-left: 1px solid rgb(253, 250, 243);
+    box-shadow: inset 1px 1px 5px #000;
+    padding: 20px;
+    background-color: #d6d1d1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+#central h1 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: #000 1px solid;
+    margin-bottom: 20px;
+    padding: 20px 0 0 0;
+}
+
+.product {
+    width: calc(33.33% - 20px); 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    height: 150px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.product h2 {
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #727483;
+    color: #000;
+    border-top: 5px solid #000;
 }
 
