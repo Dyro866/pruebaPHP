@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    background: #443333;
+}
+
+#header {
+    height: 130px;
+    background-color: #fffafa;
+    color: rgb(129, 62, 62);
+    text-align: center;
+    line-height: 30px;
+}
+
+#logo {
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+}
+
+#menu {
+    clear: both;
+    background-color: #727483;
+    color: aliceblue;
+    height: 50px;
+    border-bottom: 4px solid #000000;
+}
+
+#menu ul {
+    list-style: none;
+    margin-left: 25px;
+}
+
+#menu ul li {
+    line-height: 50px;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+#menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+}
+
+#menu a:hover {
+    background-color: #b86a6a;
+}
+
+#content {
+    background: rgb(80, 73, 73);
+    display: flex;
+    gap: 10px; /* espacio entre lateral y central */
+    padding: 20px;
+}
+
+#lateral {
+    width: 25%;
+    min-height: 600px;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #a39b9b;
+}
+
+#lateral .block_aside {
+    display: block;
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+#lateral h3 {
+    display: block;
+    color: #000;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #727483;
+    border-bottom: 2px solid #000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 1px solid #000;
+    box-shadow: inset 1px 1px 5px #ccc;
+    background: #fff;
+    padding: 2px;
+    color: #000;
+    transition: all 300ms;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border: #833b3b 1px solid;
+    color: #443333;
+}
+
+input[type="submit"],
+input[type="button"],
+.button {
+    display: block;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background: #cc2222;
+    color: #000;
+    border: #000 1px solid;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login label {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#login input[type="email"],
+#login input[type="password"],
+#login input[type="submit"] {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+#central {
+    width: 75%;
+    min-height: 600px;
+    border-left: 1px solid rgb(253, 250, 243);
+    box-shadow: inset 1px 1px 5px #000;
+    padding: 20px;
+    background-color: #d6d1d1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+#central h1 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: #000 1px solid;
+    margin-bottom: 20px;
+    padding: 20px 0 0 0;
+}
+
+.product {
+    width: calc(33.33% - 20px); 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    height: 150px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+.product h2 {
+    margin-bottom: 5px;
+}
+
+.product p {
+    margin-bottom: 10px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #727483;
+    color: #000;
+    border-top: 5px solid #000;
+}
+
