@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-color: #ad1515;
+}
+
+#container{
+    width: 80%;
+    margin:0px auto;
+    border: 1px solid rgb(70, 44, 161);
+    color: rgb(226, 214, 214);
+
+}
+
+#header{
+height: 130px;
+background-color: #3a38aa;
+color: white;
+text-align: center;
+line-height: 100px;
+
+}
+
+#logo{
+    padding: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
+#logo img{
+    float: left;
+    height: 100px;
+    width: 100;
+}
+
+#menu{
+    background-color: rgb(153, 18, 25);
+    color: white;
+    height: 50px;
+    border-bottom: 4px solid #2a2891;
+
+}
+
+#menu ul{
+    list-style: none;
+    text-decoration: none;
+    margin: 0px auto;
+    margin-left: 25px;
+}
+
+#menu ul li{
+    line-height: 25px;
+    float: left;
+    border-right: 1px solid #372696;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration:none ;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#menu a:hover{
+    background: #201515;
+}
+
+#content{
+    margin: 0px auto;
+    background: #ad1515;
+    overflow: hidden;
+    
+}
+
+#lateral{
+    width: 17%;
+    min-height: 650px;
+    border: 1px solid blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+
+}
+
+#lateral .block_aside{
+    display: block;
+    width: 87%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+#lateral h3{
+    display: block;
+    color: rgb(231, 221, 221);
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #502ab8;
+    border-bottom: 2px solid blue;
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    display: block;
+    width: 95%;
+    margin: 2px 0;
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px rgb(49, 165, 167) inset;
+    background: rgb(16, 91, 204);
+    padding: 2px;
+    color: rgb(230, 11, 11);
+    transition: all 300ms;
+    
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border: 1px solid blue;
+    color: rgb(255, 255, 255);
+}
+
+input[type="submit"],
+input[type="button"],
+.button {
+    display: block;
+    border-radius: 2px;
+    padding: 5px 10px;
+    background: rgb(39, 3, 241);
+    color: rgb(235, 237, 243);
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: rgb(23, 0, 180);
+}
+
+#central{
+    width: 80%;
+    min-height: 650px;
+    float: right;
+    border: 1px solid blue;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+#central h1{
+
+    font-size: 24px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    border-bottom: 1px solid rgb(252, 14, 14);
+    margin-bottom: 20px; 
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.product {
+    width: 30%;
+    float: left;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.product img{
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+
+.product a{
+    color: black;
+    text-decoration: none;
+}
+
+.product a:hover{
+    color: rgb(70, 43, 187);
+    
+}
+
+#footer{
+
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: black;
+    color: white;
+    border-top: 5px solid rgb(89, 39, 228);
+
+}
